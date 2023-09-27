@@ -9,7 +9,7 @@ description = "Dead simple Huffman encoding and decoding library"
 homepage = "https://github.com/funnsam/huffman_coding"
 documentation = "https://docs.rs/huffman"
 repository = "https://github.com/funnsam/huffman_coding"
-readme = "https://github.com/funnsam/huffman_coding"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
