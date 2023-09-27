@@ -6,6 +6,8 @@
 //! let decoded = huffman_decode(encoded, tree);
 //! ```
 
+#![warn(missing_docs)]
+
 use std::collections::HashMap;
 
 mod bitbuffer;
@@ -14,10 +16,12 @@ mod bitbuffer;
 /// returned by [`huffman_encode`] and used by [`huffman_decode`]
 #[derive(Clone, Debug)]
 pub enum Tree<Val: Clone> {
+    #[doc(hidden)]
     Branch {
         zero: Box<Tree<Val>>,
         one : Box<Tree<Val>>,
     },
+    #[doc(hidden)]
     Value(Option<Val>),
 }
 

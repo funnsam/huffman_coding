@@ -6,7 +6,7 @@ fn main() {
     println!("\x1b[1mBefore:\x1b[0m {before:?} ({} bytes)", before.len());
     print!("\x1b[1mCompressed:\x1b[0m ");
     for i in after.iter() {
-        print!("{i:08b}");
+        print!("{i:02x}");
     }
     println!(" ({} bytes)", after.len());
     println!("\x1b[1mCompression rate:\x1b[0m {:.1}%", (before.len() as f32 / after.len() as f32) * 100.0);
