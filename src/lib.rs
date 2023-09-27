@@ -1,10 +1,10 @@
 //! Dead simple Huffman encoding and decoding library
-///
-/// # Example
-/// ```
-/// let (encoded, tree) = huffman_encode(data);
-/// let decoded = huffman_decode(encoded, tree);
-/// ```
+//!
+//! # Example
+//! ```
+//! let (encoded, tree) = huffman_encode(data);
+//! let decoded = huffman_decode(encoded, tree);
+//! ```
 
 use std::collections::HashMap;
 
