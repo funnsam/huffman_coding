@@ -7,7 +7,7 @@ license = "BSD-2-Clause"
 keywords = ["huffman", "compression"]
 description = "Dead simple Huffman encoding and decoding library"
 homepage = "https://github.com/funnsam/huffman_coding"
-documentation = "https://docs.rs/huffman"
+documentation = "https://docs.rs/simple_huffman"
 repository = "https://github.com/funnsam/huffman_coding"
 readme = "README.md"
 
