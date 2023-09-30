@@ -1,2 +1,5 @@
 /target
 /Cargo.lock
+/test.txt
+/test.huff
+/test.tree

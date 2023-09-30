@@ -11,4 +11,15 @@ documentation = "https://docs.rs/simple_huffman"
 repository = "https://github.com/funnsam/huffman_coding"
 readme = "README.md"
 
+[features]
+serde = ["dep:serde"]
+
 [dependencies]
+serde = { version = "1.0", features = ["derive"], optional = true }
+
+[[example]]
+name = "code_file"
+required-features = ["serde"]
+
+[dev-dependencies]
+postcard = { version = "1.0", features = ["use-std"] }

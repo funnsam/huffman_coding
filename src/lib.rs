@@ -15,6 +15,7 @@ mod bitbuffer;
 /// A structure to hold a Huffman tree
 /// returned by [`huffman_encode`] and used by [`huffman_decode`]
 #[derive(Clone, Debug)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub enum Tree<Val: Clone> {
     #[doc(hidden)]
     Branch {
